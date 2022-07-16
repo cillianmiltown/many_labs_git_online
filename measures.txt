@@ -1,0 +1,64 @@
+Materials
+COVID-­19 Mitigation Measures
+We assessed three types of mitigation measures: support for restrictions (henceforth restrictions sup-
+port), adherence to physical distancing measures (henceforth distancing adherence), and adherence to
+Moral Identity and COVID-­19
+ 7
+physical hygiene measures (henceforth hygiene adherence). All items were rated on a slider scale, ranging
+from 0 = strongly disagree to 100 = strongly agree, with 11 anchors (0, 10, 20, etc.); thus, higher scores
+indicate stronger support and greater adherence (full wordings of all items are in the online appendix).
+Restrictions support Five items assessed support for policy restrictions (e.g., “In favor of closing
+all bars and restaurants”; Cronbach’s α: total sample: .91, USA: .91, New Zealand: .88).
+Distancing adherence Five items assessed adherence to physical distancing measures (e.g.,
+“Keeping physical distance from all other people outside my home”; Cronbach’s α: total sample:
+.77, USA: .76, New Zealand: .77).
+Hygiene adherence Five items assessed adherence to physical hygiene guidelines (e.g., “Washing
+my hands immediately after returning home”; Cronbach’s α: total sample: .85, USA: .87, New
+Zealand: .80).
+Moral Identity
+The 10-­item Moral Identity Scale (Aquino & Reed, 2002) was employed. Five items assessed
+symbolization (e.g., “I am actively involved in activities that communicate to others that I have these
+characteristics”; Cronbach’s α: total sample: .835, USA: .84, New Zealand: .80), and five items
+assessed internalization (e.g., “Being someone who has these characteristics is an important part of
+who I am”; Cronbach’s α: total sample: .73, USA: .73, New Zealand: .77). Responses were recorded
+on an 11-­point scale ranging from 0 = strongly disagree to 10 = strongly agree; negative items were
+reverse-­coded such that higher scores indicated higher moral identity.
+Political Ideology
+We measured participants’ political ideology using a left–­right self-­placement item (“Overall,
+how would you describe yourself in terms of political ideology?”), where participants indicated their
+orientation as ranging from 0 = Extremely liberal/left leaning to 10 = Extremely conservative/very
+right leaning. This widely used measure is generally stable (Krosnick, 1991) and predicts various
+social attitudes (Dunn, 2011).
+Covariates
+Moral circle The moral circle task (Waytz et al., 2019) was employed, whereby participants indicate
+how far their moral circle in general extends (i.e., categories for whom a person is concerned about
+right and wrong done to them) by selecting 1 of 16 statements ranging from your immediate family
+to all things in existence. Moral circle is thus scored from 1 to 16, where larger numbers represent a
+larger moral circle (see the online appendix for full wording).
+Risk perception COVID-­19 risk perception was assessed by two items: “By April 30, 2021: How
+likely do you think it is that you will get infected by the Coronavirus (Covid-­19)?” and “By April 30,
+2021: How likely do you think it is that the average person in [your country] will get infected by the
+Coronavirus (COVID-­19)?” Each item was rated from 0% = impossible to 100% = certain. Higher
+scores represent higher perceived risk (Cronbach’s α: total sample: .84, USA: .82, New Zealand: .87).
+Individual narcissism The six-­
+ item Brief Narcissistic Admiration and Rivalry Questionnaire
+(NARQ; Back et al., 2013) assessed two dimensions of narcissism: admiration (e.g., “I deserve to be
+8
+ McHugh et al.
+seen as a great personality”; Cronbach’s α: combined sample: .83, USA: .83, New Zealand: .79) and
+rivalry (e.g., “Most people are somehow losers”; Cronbach’s α: total sample: .81, USA: .83, New
+Zealand: .73). Responses were recorded on an 11-­point scale ranging from 0 = strongly disagree to
+10 = strongly agree, with higher scores representing higher admiration and rivalry.
+Collective narcissism Collective narcissism was assessed using a three-­item scale (Golec de Zavala
+et al., 2009; e.g., “[My national group] deserves special treatment”). Responses were recorded on
+an 11-­point scale ranging from 0 = strongly disagree to 10 = strongly agree. Higher scores represent
+greater collective narcissism (Cronbach’s α: total sample: .85, USA: .86, New Zealand: .80).
+Conspiracy beliefs Four items assessed COVID-­19 conspiracy beliefs (e.g., “The coronavirus
+(COVID-­19) is a bioweapon engineered by scientists.” Participants rated each item from 0 = strongly
+disagree to 10 = strongly agree. Higher scores represent stronger conspiracy beliefs (Cronbach’s α:
+total sample: .92, USA: .92, New Zealand: .92).
+National identification Two items assessed national identification (“I identify as [nationality]”;
+Postmes et al., 2013; “Being a [nationality] is an important reflection of who I am”; Leach et
+al., 2008). Responses were recorded on an 11-­item scale ranging from 0 = strongly disagree to
+10 = strongly agree (Cronbach’s α: total sample: .77, USA: .76, New Zealand: .80). Higher scores
+indicate higher levels of national identification.

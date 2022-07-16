@@ -1,0 +1,445 @@
+---
+title: "Moral Identity and COVID-19"
+subtitle: "Variation depending on Political Ideology & Country"
+author: "Cillian McHugh, Siobhán M. Griffin, Melanie J. McGrath, Joshua J. Rhee, Paul J. Maher, Darragh McCashin, Jenny Roth"
+date: "17 July 2022"
+bibliography: "../../Research_general/resources/bib/My Library.bib"
+csl: apa.csl
+output: 
+  ioslides_presentation:
+    transition: faster
+    css: ../../Research_general/resources/css/shiny_slides_mjac.css
+    fullscreen: yes
+    widescreen: yes
+    logo: ../../Research_general/resources/images/ul_new_logo_dark.png
+    incremental: false
+editor_options: 
+  chunk_output_type: console
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+```{r colors}
+
+r_slidetot <- 82
+
+
+#Color Format
+colFmt = function(x,color){
+  outputFormat = knitr::opts_knit$get("rmarkdown.pandoc.to")
+  if(outputFormat == 'latex')
+    paste("\\textcolor{",color,"}{",x,"}",sep="")
+  else if(outputFormat == 'html')
+    paste("<font color='",color,"'>",x,"</font>",sep="")
+  else
+    x
+}
+
+#rgb(255, 0, 0);
+
+sentiment <- '#ff744e'
+rational1 <- '#2faace'
+rational <- '#248aa8'
+conflict1 <- '#7d0552'
+conflict <- '#2f8d2f'
+cogload <- '#a0522d'
+dual <- '#b93b8f'
+lightgrey <- '#c0c0c0'
+
+
+# \definecolor{sentiment}{RGB}{255, 115, 115} #ff7300 or #ff744e
+# 
+# % \definecolor{rational}{RGB}{47,170,206} #2faace
+# 
+# \definecolor{rational}{RGB}{36, 138, 168} #248aa8
+# 
+# % \definecolor{conflict}{RGB}{125, 5, 82} #7d0552
+# 
+# \definecolor{cogload}{RGB}{160, 82, 45} #a0522d
+# 
+# \definecolor{conflict}{RGB}{47,141,47} #2f8d2f
+# 
+# \definecolor{dual}{RGB}{185, 59, 143} #b93b8f
+# 
+# \definecolor{lightgrey}{RGB}{192,192,192} #c0c0c0
+
+
+# plotting:
+# red dumbfounded
+# yellow reasons
+# blue nothing wrong
+dumb_palette <- c('#ff3801','#ff4c1b','#ff6035','#ff744e','#ff8868','#ff9c81','#ffb09b','#ff744e') # https://www.colorhexa.com/ff744e
+reasons_palette <- c('#ffb701','#ffbf1b','#ffc635','#ffcd4e','#ffd468','#ffdb81','#ffe39b','#ffcd4e') #https://www.colorhexa.com/ffcd4e
+nothing_palette <- c('#0149ff','#1b5bff','#356eff','#4e80ff','#6892ff','#81a5ff','#9bb7ff','#4e80ff') # https://www.colorhexa.com/4e80ff
+
+
+
+
+```
+
+
+## COVID-19: A Moral Issue
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+- Background and Rationale
+- Hypotheses
+- Methods/Measures
+- Results
+- Conclusion
+
+## COVID-19: A Moral Issue
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+## COVID-19: A Moral Issue
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/moral_media_2.png" width="800px" class="img-frame"/>
+
+
+## COVID-19: A Moral Issue
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/moral_media_3.png" width="800px" class="img-frame"/>
+
+## COVID-19: A Moral Issue
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/moral_media_3b.png" width="800px" class="img-frame"/>
+
+
+## COVID-19: A Moral Issue
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/moral_media_4b.png" width="800px" class="img-frame"/>
+
+
+## COVID-19: A Moral Issue
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/moral_media_5.png" width="800px" class="img-frame"/>
+
+
+## COVID-19: A Moral Issue
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/moral_media_6.png" width="800px" class="img-frame"/>
+
+
+## COVID-19: A Moral Issue
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/moral_media_7.png" width="800px" class="img-frame"/>
+
+
+## COVID-19: A Moral Issue
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/moral_media_12.png" width="800px" class="img-frame"/>
+
+
+## COVID-19: A Moral Issue
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/moral_media_13.png" width="800px" class="img-frame"/>
+
+
+## COVID-19: A Moral Issue
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/moral_media_15.png" width="800px" class="img-frame"/>
+
+
+## COVID-19: A Moral Issue
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/moral_media_16.png" width="800px" class="img-frame"/>
+
+
+
+## Moral Conflict
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/moral_conflict1.png" width="800px" class="img-frame"/>
+
+
+
+## Moral Conflict
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/moral_conflict2.png" width="800px" class="img-frame"/>
+
+
+## Moral Conflict
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/moral_conflict3.png" width="800px" class="img-frame"/>
+
+
+## Moral Conflict
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/moral_conflict4.png" width="800px" class="img-frame"/>
+
+
+## Moral Conflict
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/moral_conflict5.png" width="800px" class="img-frame"/>
+
+## Data
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/ICSMP.png" width="800px" class="img-frame"/>
+
+
+## Moral Identity
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+> - A measure of how much people view "being a moral person" as an important aspect of their self-concept
+
+> - **Internalization**: importance of moral characteristics to the *self* 
+
+> - **Symbolization**: importance of being *seen by others* as moral
+
+<br>
+
+<br>
+
+[@aquino_selfimportance_2002]
+
+## Moral Identity and COVID-19
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/pnas.png" width="700px" class="img-frame"/>
+
+[@pavlovic_predicting_2022]
+
+## Moral Identity & Political Ideology
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+- Moral identity can interact with Political ideology in predicting behaviour [@winterich_moral_2015]
+
+- Greater Internalization predicts *less* generous donations to charities that do not align with own moral foundations
+
+- Political Ideology and different moral foundations [@graham_liberals_2009]
+  - Loyalty/Tradition/Authority/Free-Market Principles/Freedom of the Individual
+
+- Political Ideology and Moral Circle [@waytz_ideological_2019]
+
+> - Motivations to adhere to COVID-19 measures may conflict with other moral values (e.g., autonomy and freedom) that are more strongly held by conservatives than liberals.
+
+## Moral Identity, Political Ideology & Context
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/model1.png" width="800px" class="img-frame"/>
+
+## Moral Identity, Political Ideology & Context
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/model2.png" width="800px" class="img-frame"/>
+
+## Moral Identity, Political Ideology & Context
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/model3.png" width="800px" class="img-frame"/>
+
+## Moral Identity, Political Ideology & Context
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/model4.png" width="800px" class="img-frame"/>
+
+## Hypotheses
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/H1.png" width="800px" class="img-frame"/>
+
+## Hypotheses
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/H2.png" width="800px" class="img-frame"/>
+
+## Hypotheses
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/H3.png" width="800px" class="img-frame"/>
+
+## Hypotheses
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/H4.png" width="800px" class="img-frame"/>
+
+## Participants
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+### Full Dataset
+
+- Data were collected from 46,450 participants in 67 countries (22,160 females, 23,948 males, age *M* = 43.09, *SD* = 16.22)
+
+### Our Sample
+
+- Sub-sample of New Zealand and the USA samples (*N* = 1980)
+
+- New Zealand: *n* = 509 (255 females, 255 males 1 other; age: *M* = 45.78, *SD* = 17.63)
+
+- USA: *n* = 1,471 (710 females, 755 males 6 other; age: *M* = 44.32, *SD* = 16.43)
+
+## Outcome Measures
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+- **Restrictions support**: (5 items) e.g., *In favor of closing all bars and restaurants*
+- **Distancing Adherence**: (5 items) e.g., *Keeping physical distance from all other people outside my home*
+- **Hygiene adherence**: (5 items) e.g., *Washing my hands immediately after returning home*
+
+Slider scale, ranging 0 = strongly disagree - 100 strongly agree
+
+## Predictors
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+- **Moral Identity**: 10-item Moral Identity Scale (0 = strongly disagree to 10 = strongly agree) 
+  - Internalization: (5 items) *Being someone who has these characteristics is an important part of who I am*
+  - Symbolization: (5 items) *I am actively involved in activities that communicate to others that I have these characteristics*
+
+
+- **Political Ideology**: (1 item): *Overall, how would you describe yourself in terms of political ideology?* (0 = Extremely liberal/left leaning to 10 = Extremely conservative/very right leaning)
+
+- **Country/Polarization**: USA (high polarization) and New Zealand (low polarization)
+
+## Covariates
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+- Moral circle
+- COVID-19 Risk perception
+- Individual narcissism [6 item Brief NARQ, @back_narcissistic_2013]
+- Collective narcissism [3 items, @golecdezavala_collective_2009]
+- Conspiracy beliefs (4 items)
+- National identification [2 items, postmes_singleitem_2013; @leach_group-level_2008]
+
+
+
+## Results Overview
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+
+## Results Overview
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/results1.png" width="800px" class="img-frame"/>
+
+## Results Overview
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/results2.png" width="800px" class="img-frame"/>
+
+
+## Results Overview
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/results3.png" width="800px" class="img-frame"/>
+
+## Results Overview
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/results4.png" width="800px" class="img-frame"/>
+
+
+## Results: Internalization
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/internalization1.png" width="800px" class="img-frame"/>
+
+## Results: Internalization
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/internalization2.png" width="800px" class="img-frame"/>
+
+## Results: Internalization
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/internalization3.png" width="800px" class="img-frame"/>
+
+## Results: Symbolization
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/symbolization1.png" width="800px" class="img-frame"/>
+
+## Results: Symbolization
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/symbolization2.png" width="800px" class="img-frame"/>
+
+## Results: Symbolization
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/symbolization3.png" width="800px" class="img-frame"/>
+
+
+## Results Overview
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/results4.png" width="800px" class="img-frame"/>
+
+## Conclusions
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+- Mixed support for hypotheses
+- Moral Identity Matters
+  - Differences between Internalization and Symbolization
+- Complex relationship between moral identity, political ideology and national context (polarization)
+  - Political ideology more important in polarized contexts (but this is less straight forward than predicted)
+
+
+# Thank You for Listening
+
+## References
