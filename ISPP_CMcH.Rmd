@@ -83,7 +83,13 @@ nothing_palette <- c('#0149ff','#1b5bff','#356eff','#4e80ff','#6892ff','#81a5ff'
 ```
 
 
-## COVID-19: A Moral Issue
+## Acknowledgements
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/ack1.png" width="800px" class="img-frame"/>
+
+## Overview
 
 > <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
 
@@ -351,7 +357,7 @@ Slider scale, ranging 0 = strongly disagree - 100 strongly agree
 - Individual narcissism [6 item Brief NARQ, @back_narcissistic_2013]
 - Collective narcissism [3 items, @golecdezavala_collective_2009]
 - Conspiracy beliefs (4 items)
-- National identification [2 items, postmes_singleitem_2013; @leach_group-level_2008]
+- National identification [2 items, @postmes_singleitem_2013; @leach_group-level_2008]
 
 
 
@@ -386,37 +392,37 @@ Slider scale, ranging 0 = strongly disagree - 100 strongly agree
 <img src="images/results4.png" width="800px" class="img-frame"/>
 
 
-## Results: Internalization
+## Results: Internalization & Restrictions
 
 > <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
 
 <img src="images/internalization1.png" width="800px" class="img-frame"/>
 
-## Results: Internalization
+## Results: Internalization & Distancing
 
 > <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
 
 <img src="images/internalization2.png" width="800px" class="img-frame"/>
 
-## Results: Internalization
+## Results: Internalization & Hygiene
 
 > <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
 
 <img src="images/internalization3.png" width="800px" class="img-frame"/>
 
-## Results: Symbolization
+## Results: Symbolization & Restrictions
 
 > <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
 
 <img src="images/symbolization1.png" width="800px" class="img-frame"/>
 
-## Results: Symbolization
+## Results: Symbolization & Distancing
 
 > <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
 
 <img src="images/symbolization2.png" width="800px" class="img-frame"/>
 
-## Results: Symbolization
+## Results: Symbolization & Hygiene
 
 > <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
 
@@ -428,6 +434,13 @@ Slider scale, ranging 0 = strongly disagree - 100 strongly agree
 > <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
 
 <img src="images/results4.png" width="800px" class="img-frame"/>
+
+## Take Home Message
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/internalization1.png" width="800px" class="img-frame"/>
+
 
 ## Conclusions
 
@@ -441,5 +454,13 @@ Slider scale, ranging 0 = strongly disagree - 100 strongly agree
 
 
 # Thank You for Listening
+
+
+## Read More...
+
+> <div id="footer"> <font size=2>Cillian McHugh - 17/7/22</font size></div>
+
+<img src="images/paper.png" width="800px" class="img-frame"/>
+
 
 ## References
